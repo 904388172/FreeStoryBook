@@ -1,0 +1,84 @@
+//
+//  FreeBook.pch
+//  FreeStoryBook
+//
+//  Created by 耿双 on 2019/3/19.
+//  Copyright © 2019 GS. All rights reserved.
+//
+
+#ifndef FreeBook_pch
+#define FreeBook_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FreeBook_pch */
+
+
+
+
+
+#import <UIKit/UIKit.h>
+#import <Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <FMDatabase.h>
+#import <FMDatabaseQueue.h>
+#import <AFAuthSDK/AFAuthSDK.h>
+
+
+
+/**
+ * screen size
+ */
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+
+
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+
+
+
+#define UI_FRAME_ZERO 64
+
+
+#pragma mark -- 图片Url
+#define ImgUrl @"http://app.duoduoxiaoshuo.com/public/"
+
+#pragma mark -- 书架
+#define BookCase @"book/booklist/3"
+
+#pragma mark -- 精选
+#define BookHot @"book/boutique/"
+
+//#pragma mark -- 书库
+//#define BookCategory @"book/getCategory/"
+
+#pragma mark -- 赚钱
+#define MakeMoney @"checkin/checkInrule"
+
+#pragma mark -- 我的
+//#define BookCategory @"book/getCategory/"
+
+#pragma mark -- 书库分类
+#define BookCategory @"book/getCategory/"
+
+#pragma mark -- 书库排行
+#define BookRank @"book/rank/"
+
+#pragma mark -- 搜索
+#define BookSearch @"search/"
+
+
+

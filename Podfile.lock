@@ -1,0 +1,74 @@
+PODS:
+  - AFAuthSDK (0.0.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliPaySDK (1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SVProgressHUD (2.2.5)
+  - WechatOpenSDK (1.8.4)
+
+DEPENDENCIES:
+  - AFAuthSDK
+  - AFNetworking
+  - AliPaySDK
+  - FMDB
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFAuthSDK
+    - AFNetworking
+    - AliPaySDK
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AFAuthSDK: b5a83dc963468a57396c8df6d8df073fa8a4d62e
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliPaySDK: 126275e58119c000cfc2d67a950eb354d3e28ab3
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
+
+PODFILE CHECKSUM: 302ec4ffdb7ee69e0c25b5115e1e5e6478bac90c
+
+COCOAPODS: 1.6.1
